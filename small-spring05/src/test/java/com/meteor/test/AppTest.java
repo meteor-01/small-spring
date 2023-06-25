@@ -42,7 +42,7 @@ public class AppTest {
 
     @Test
     public void test_url() throws IOException {
-        Resource resource = resourceLoader.getResource("https://github.com/fuzhengwei/small-spring/blob/main/important.properties");
+        Resource resource = resourceLoader.getResource("https://github.com/meteor-01/small-spring/blob/master/important.properties");
         InputStream inputStream = resource.getInputStream();
         String content = IoUtil.readUtf8(inputStream);
         System.out.println(content);
