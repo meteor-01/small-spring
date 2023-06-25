@@ -8,7 +8,9 @@
   <modules>
     <module>small-spring01</module>
     <module>small-spring02</module>
-      <module>small-spring03</module>
+    <module>small-spring03</module>
+    <module>small-spring04</module>
+    <module>small-spring05</module>
   </modules>
   <packaging>pom</packaging>
 
