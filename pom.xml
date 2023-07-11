@@ -12,6 +12,7 @@
     <module>small-spring04</module>
     <module>small-spring05</module>
       <module>small-spring06</module>
+      <module>small-spring07</module>
   </modules>
   <packaging>pom</packaging>
 

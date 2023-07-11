@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="small-spring07" />
+        <module name="small-spring05" />
+        <module name="small-spring06" />
         <module name="small-spring03" />
         <module name="small-spring04" />
         <module name="small-spring01" />
         <module name="small-spring02" />
-        <module name="small-spring05" />
-        <module name="small-spring06" />
       </profile>
     </annotationProcessing>
   </component>
