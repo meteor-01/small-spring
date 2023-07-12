@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="small-spring07" />
+        <module name="small-spring08" />
         <module name="small-spring05" />
         <module name="small-spring06" />
         <module name="small-spring03" />
