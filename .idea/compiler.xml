@@ -16,6 +16,7 @@
         <module name="small-spring04" />
         <module name="small-spring01" />
         <module name="small-spring02" />
+        <module name="small-spring10" />
       </profile>
     </annotationProcessing>
   </component>
