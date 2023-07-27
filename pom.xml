@@ -1,38 +1,39 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.meteor</groupId>
-  <artifactId>small-springframework</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>small-spring01</module>
-    <module>small-spring02</module>
-    <module>small-spring03</module>
-    <module>small-spring04</module>
-    <module>small-spring05</module>
-      <module>small-spring06</module>
-      <module>small-spring07</module>
-      <module>small-spring08</module>
-      <module>small-spring09</module>
-      <module>small-spring10</module>
-    <module>small-spring11</module>
-  </modules>
-  <packaging>pom</packaging>
+    <groupId>com.meteor</groupId>
+    <artifactId>small-spring</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>small-spring01</module>
+        <module>small-spring02</module>
+        <module>small-spring03</module>
+        <module>small-spring04</module>
+        <module>small-spring05</module>
+        <module>small-spring06</module>
+        <module>small-spring07</module>
+        <module>small-spring08</module>
+        <module>small-spring09</module>
+        <module>small-spring10</module>
+        <module>small-spring11</module>
+      <module>small-spring12</module>
+    </modules>
+    <packaging>pom</packaging>
 
-  <name>small-springframework</name>
-  <url>http://maven.apache.org</url>
+    <name>small-spring</name>
+    <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
