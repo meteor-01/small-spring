@@ -17,6 +17,7 @@
         <module name="small-spring01" />
         <module name="small-spring12" />
         <module name="small-spring02" />
+        <module name="small-spring13" />
         <module name="small-spring10" />
         <module name="small-spring11" />
       </profile>
