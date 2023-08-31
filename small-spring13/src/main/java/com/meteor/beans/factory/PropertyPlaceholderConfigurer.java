@@ -44,6 +44,7 @@ public class PropertyPlaceholderConfigurer implements BeanFactoryPostProcessor {
                 for(PropertyValue propertyValue: propertyValues.getPropertyValues()){
                     Object value = propertyValue.getValue();
                     if(!(value instanceof String)) continue;
+
                     String strVal = (String) value;
                     StringBuilder buffer = new StringBuilder(strVal);
                     int startIdx = strVal.indexOf(DEFAULT_PLACEHOLDER_PREFIX);
