@@ -11,6 +11,7 @@
         <module name="small-spring07" />
         <module name="small-spring08" />
         <module name="small-spring05" />
+        <module name="small-spring16" />
         <module name="small-spring06" />
         <module name="small-spring03" />
         <module name="small-spring14" />
@@ -24,5 +25,8 @@
         <module name="small-spring11" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="small-spring17" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
