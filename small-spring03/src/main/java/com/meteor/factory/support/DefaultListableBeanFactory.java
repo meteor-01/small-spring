@@ -6,13 +6,19 @@ import com.meteor.factory.config.BeanDefinition;
 import java.util.HashMap;
 import java.util.Map;
 
-public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory implements BeanDefinitionRegistry{
+/*
+ * author: meteor_01
+ * date: 2023/10/30
+ * desc: 提供了注册、获取 BeanDefinition 的功能，供父类 AbstractBeanFactory 使用
+ **/
+public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory implements BeanDefinitionRegistry {
     private Map<String, BeanDefinition> beanDefinitionMap = new HashMap<>();
+
     @Override
     protected BeanDefinition getBeanDefinition(String beanName) throws BeansException {
         BeanDefinition beanDefinition = beanDefinitionMap.get(beanName);
-        if(beanDefinition==null){
-            throw new BeansException("No bean named '"+beanName+"' is defined");
+        if (beanDefinition == null) {
+            throw new BeansException("No bean named '" + beanName + "' is defined");
         }
         return beanDefinition;
     }

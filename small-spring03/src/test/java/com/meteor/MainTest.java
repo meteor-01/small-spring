@@ -5,7 +5,7 @@ import com.meteor.factory.config.BeanDefinition;
 import com.meteor.factory.support.DefaultListableBeanFactory;
 import org.junit.Test;
 
-public class AppTest {
+public class MainTest {
     @Test
     public void testBeanFactory() {
         //1. 初始化BeanFactory

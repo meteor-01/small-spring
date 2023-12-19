@@ -6,6 +6,11 @@ import com.meteor.factory.config.BeanDefinition;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
+/*
+* author: meteor_01
+* date: 2023/10/31
+* desc: 利用反射实例化对象
+**/
 public class SimpleInstantiationStrategy implements InstantiationStrategy{
     public Object instantiate(BeanDefinition beanDefinition, String beanName, Constructor ctor, Object[] args) throws BeansException {
         Class clazz = beanDefinition.getBeanClass();
